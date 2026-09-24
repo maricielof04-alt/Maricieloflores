@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 10</title>
+</head>
+<body>
+    <h1>10. Presupuesto para un viaje</h1>
+    <a href="index.html">Volver al inicio</a>
+
+    <script>
+        let dias = parseInt(prompt("Cantidad de días del viaje:"));
+        let gastoAlimentacion = parseFloat(prompt("Gasto diario en alimentación:"));
+        let gastoTransporte = parseFloat(prompt("Gasto diario en transporte:"));
+        let gastoAlojamiento = parseFloat(prompt("Gasto diario en alojamiento:"));
+
+        let totalAlimentacion = gastoAlimentacion * dias;
+        let totalTransporte = gastoTransporte * dias;
+        let totalAlojamiento = gastoAlojamiento * dias;
+        let presupuestoTotal = totalAlimentacion + totalTransporte + totalAlojamiento;
+
+        alert("Gasto total en alimentación: S/ " + totalAlimentacion.toFixed(2) +
+              "\nGasto total en transporte: S/ " + totalTransporte.toFixed(2) +
+              "\nGasto total en alojamiento: S/ " + totalAlojamiento.toFixed(2) +
+              "\n----------------------------------" +
+              "\nPresupuesto total del viaje: S/ " + presupuestoTotal.toFixed(2));
+    </script>
+</body>
+</html>

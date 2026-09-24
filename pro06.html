@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 06</title>
+</head>
+<body>
+    <h1>6. Cuenta de una cena</h1>
+    <a href="index.html">Volver al inicio</a>
+
+    <script>
+        let cuentaTotal = parseFloat(prompt("Ingrese el monto total de la cuenta:"));
+        let personas = parseInt(prompt("Ingrese la cantidad de personas:"));
+
+        let pagoPorPersona = cuentaTotal / personas;
+
+        alert("Cada persona debe pagar: S/ " + pagoPorPersona.toFixed(2));
+    </script>
+</body>
+</html>
