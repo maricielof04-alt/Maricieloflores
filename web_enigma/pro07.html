@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 07</title>
+</head>
+<body>
+    <h1>7. Sueldo de un trabajador</h1>
+    <a href="index.html">Volver al inicio</a>
+
+    <script>
+        let sueldoBruto = parseFloat(prompt("Ingrese el sueldo mensual bruto:"));
+        let descuento = sueldoBruto * 0.13;
+        let sueldoFinal = sueldoBruto - descuento;
+
+        alert("Sueldo Bruto: S/ " + sueldoBruto.toFixed(2) + 
+              "\nMonto Descontado (13%): S/ " + descuento.toFixed(2) + 
+              "\nSueldo Final: S/ " + sueldoFinal.toFixed(2));
+    </script>
+</body>
+</html>

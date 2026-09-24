@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 09</title>
+</head>
+<body>
+    <h1>9. Conversión de soles a dólares</h1>
+    <a href="index.html">Volver al inicio</a>
+
+    <script>
+        let montoSoles = parseFloat(prompt("Ingrese el monto en soles (S/):"));
+        let tipoCambio = parseFloat(prompt("Ingrese el tipo de cambio del dólar:"));
+
+        let dolares = montoSoles / tipoCambio;
+
+        alert("Equivale a aproximadamente: US$ " + dolares.toFixed(2));
+    </script>
+</body>
+</html>

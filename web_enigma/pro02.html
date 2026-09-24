@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 02</title>
+</head>
+<body>
+    <h1>2. Compra de utiles escolares</h1>
+    <a href="index.html">Volver al inicio</a>
+
+    <script>
+        let precioCuaderno = parseFloat(prompt("Precio de un cuaderno:"));
+        let cantCuadernos = parseFloat(prompt("Cantidad de cuadernos:"));
+        let precioLapicero = parseFloat(prompt("Precio de un lapicero:"));
+        let cantLapiceros = parseFloat(prompt("Cantidad de lapiceros:"));
+
+        let total = (precioCuaderno * cantCuadernos) + (precioLapicero * cantLapiceros);
+
+        document.write("El total de la compra es: S/ " + total);
+    </script>
+</body>
+</html>
