@@ -1,34 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Web Enigma - Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Estudiante</title>
+    <link rel="stylesheet" href="css/matrix.css">
 </head>
 <body>
-    <h1>Proyectos de JavaScript - Web Enigma</h1>
-    
-    datos
-    <section>
-        <h2>Datos de Estudiante</h2>
-        <p><strong>Nombre:</strong>Maricielo Febe Flores Hurtado </p>
-        <p><strong>Instituto:</strong> CERTUS</p>
-        <p><strong>Curso:</strong> Fundamentos de Desarrollo Front-End</p>
-    </section>
 
-    <hr>
+    <header class="encabezado">
+        <h1>🎓 Mi Perfil</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-    <h2>Lista de Retos</h2>
-    <ul>
-        <li><a href="pro01.html">1. Compra en una bodega</a></li>
-        <li><a href="pro02.html">2. Compra de utiles escolares</a></li>
-        <li><a href="pro03.html">3. Calculo de edad</a></li>
-        <li><a href="pro04.html">4. Promedio de notas</a></li>
-        <li><a href="pro05.html">5. Descuento en una tienda</a></li>
-        <li><a href="pro06.html">6. Cuenta de una cena</a></li>
-        <li><a href="pro07.html">7. Sueldo de un trabajador</a></li>
-        <li><a href="pro08.html">8. Consumo de combustible</a></li>
-        <li><a href="pro09.html">9. Conversion de soles a dolares</a></li>
-        <li><a href="pro10.html">10. Presupuesto para un viaje</a></li>
-    </ul>
+    <main class="contenedor" id="inicio">
+
+        <section class="perfil">
+            <img
+                src="img/Maricielo.jpeg"
+                alt="Foto del estudiante"
+                class="foto"
+            >
+
+            <h2>Maricielo Febe Flores Hurtado</h2>
+            <p class="carrera">Diseño y desarrollo de software</p>
+
+            <div class="datos" id="contacto">
+                <p><strong>Instituto:</strong> Certus</p>
+                <p><strong>Ciclo:</strong> 1.º ciclo</p>
+                <p><strong>Ciudad:</strong> Lima, Perú</p>
+                <p><strong>Correo:</strong> maricielo.f.04@email.com</p>
+            </div>
+
+            <button id="btnMensaje">Contáctame</button>
+        </section>
+
+        <section class="informacion" id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy estudiante de Diseño y desarrollo de software y me interesa
+                aprender sobre la tecnología y el diseño UX UI.
+                Cuento con habilidades para el trabajo en equipo y una fuerte orientación 
+                hacia la resolución de problemas y el aprendizaje continuo ante nuevos desafíos.
+            </p>
+
+            <h2>Mis intereses</h2>
+            <ul>
+                <li>💻 Tecnología</li>
+                <li>📈 Marketing digital</li>
+                <li>⚽ Deportes</li>
+                <li>📚 Aprendizaje continuo</li>
+            </ul>
+
+            <blockquote>
+                "Cada día es una oportunidad para aprender algo nuevo".
+            </blockquote>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Mi Perfil Estudiantil</p>
+    </footer>
+
+    <script src="js/funcionalidad.js"></script>
 </body>
 </html>
